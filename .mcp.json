@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-open-tender-rfp-finder": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-open-tender-rfp-finder"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
